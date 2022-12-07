@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        
+        <form action="" id="form">
+          
+
+          <div class="rows">
+            <div class="col">
+              <label for="">UserName</label><br>
+              <input type="text" id="username" placeholder="username"/>
+              <!-- SPAN MSG -->
+              <section class="spanmsg">
+                <span id="green-checked"><p>correct</p></span>
+                <span id="rederror"><p>Must contain username</p></span>
+                <span id="lessthan"><p>Must not be less than 4</p></span>
+              </section>
+            </div>
+             
+            <div class="col">
+             <label for="">Email</label><br>
+              <input type="text" id="email" placeholder="Email"/> 
+            
+               <section class="spanmsg">
+                <span id="green-checked1"><p>correct</p></span>
+                <span id="rederror1"><p>Must contain valid email</p></span>
+                <span id="lessthan1"><p>Must not be less than 4</p></span>
+              </section>
+            </div>
+
+             <div class="col">
+              <label for="">Password</label><br>
+              <input type="password" id="password" placeholder="enter password"/>
+              
+               <section class="spanmsg">
+                <span id="green-checked2"><p>correct</p></span>
+                <span id="rederror2"><p>Input password</p></span>
+                <span id="lessthan2"><p>Must not be less than 6</p></span>
+              </section>
+            </div>
+
+             <div class="col">
+              <label for="">Confirm</label><br>
+              <input type="password" id="confirm" placeholder="confirm password"/>
+              
+              <section class="spanmsg">
+                <span id="green-checked3"><p>correct</p></span>
+                <span id="rederror3"><p>Repeat password</p></span>
+                <span id="lessthan3"><p>Must not be less than 4</p></span>
+              </section>
+            
+
+            
+          </div>
+          <center> <button id="btn" type="submit">Submit</button></center>
+       
+        </form>
+      </div>
+    </main>
+    <script src="/js/form.js"></script>
+  </body>
+</html>
